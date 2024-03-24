@@ -1,4 +1,4 @@
-package variable.ex;
+package variable.ex; // 이렇게 pacakage안에 또다른 package? -> '.'으로 이어주면 됨
 
 public class VarEx1 {
 
