@@ -8,9 +8,11 @@ public class OperationEx1 {
         int num3 = 30;
 
         int sum = num1 + num2 + num3;
-        int average = sum / 3;
+        int average = sum / 3; // 20
+        double average2 = sum / 3; // 20.0
 
         System.out.println(sum);
         System.out.println(average);
+        System.out.println((average2));
     }
 }

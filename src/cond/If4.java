@@ -7,13 +7,13 @@ public class If4 {
 
         if (age <= 7) {
             System.out.println("미취학");
-        } else if (age <= 13) {
+        } else if (age <= 13) { // age > 7 && age <= 13
             System.out.println("초등학생");
         } else if (age <= 16) {
             System.out.println("중학생");
         } else if (age <= 19) {
             System.out.println("고등학생");
-        } else {
+        } else { // 마지막은 else {}
             System.out.println("성인");
         }
     }

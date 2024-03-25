@@ -10,7 +10,7 @@ public class OperationEx2 {
         double sum = val1 + val2 + val3;
         double avg = sum / 3;
 
-        System.out.println(sum);
-        System.out.println(avg);
+        System.out.println(sum); // 7.5
+        System.out.println(avg); // 2.5
     }
 }
