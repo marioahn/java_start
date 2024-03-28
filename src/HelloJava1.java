@@ -5,6 +5,7 @@ public class HelloJava1 {
         System.out.println("hi1");
         System.out.println("'h2'"); // java는 따옴표는 안먹히네
         System.out.println("hi3");
+        //
     }
 }
 
