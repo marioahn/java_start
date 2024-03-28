@@ -3,9 +3,10 @@ package cond.ex;
 public class MoveRateEx {
 
     public static void main(String[] args) {
-        double rating = 7.1;
-
-        if (rating <= 9) {
+        double rating = 6.1; // float보단, double형으로!
+        
+        // 독립 if문들
+        if (rating <= 9) { // 쌍따옴표안에, 작은따옴표 -> 그대로 출력
             System.out.println("'어바웃타임'을 추천합니다.");
         }
         if (rating <= 8) {
