@@ -7,9 +7,10 @@ public class While2_3 {
         int i = 1;
         int endNum = 3;
 
-        while (i <= endNum) {
-            sum = sum + i;
-            System.out.println("i=" + i + " sum=" + sum);
+        while (i<= endNum) {
+            sum += 1;
+            System.out.println(i);
+            System.out.println(sum);
             i++;
         }
     }
