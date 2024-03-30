@@ -1,5 +1,7 @@
 package cond.ex;
 
+import java.sql.SQLOutput;
+
 public class GradeSwitchEx {
 
     public static void main(String[] args) {
