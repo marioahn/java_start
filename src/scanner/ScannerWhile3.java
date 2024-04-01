@@ -10,12 +10,11 @@ public class ScannerWhile3 {
 
         while (true) {
             System.out.print("정수를 입력하세요 (0을 입력하면 종료):");
-            int number = input.nextInt();
+            int number = input.nextInt(); // input.nextInt();
 
             if (number == 0) {
                 break;
             }
-
             sum += number;
         }
         System.out.println("입력한 모든 정수의 합: " + sum);
