@@ -6,8 +6,8 @@ public class ProductAdminEx {
 
     public static void main(String[] args) {
         int maxProducts = 10;
-        String[] productNames = new String[maxProducts];
-        int[] productPrices = new int[maxProducts];
+        String[] productNames = new String[maxProducts]; // new String[10]
+        int[] productPrices = new int[maxProducts]; // 그러고보니 int는 Int가 아니네 이건 흠..
         int productCount = 0;
 
         Scanner scanner = new Scanner(System.in);

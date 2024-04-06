@@ -11,7 +11,7 @@ public class ArrayEx4 {
         double average;
 
         System.out.println("5개의 정수를 입력하세요:");
-        for (int i = 0; i < 5; i++) {
+        for (int i=0; i<5; i++) {
             numbers[i] = scanner.nextInt();
             sum += numbers[i];
         }
