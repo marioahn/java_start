@@ -3,6 +3,7 @@ package method;
 public class Method1 {
 
     public static void main(String[] args) {
+        // 둘다 똑같음사실상 -> 하나의 함수, 메서드화가 가능
         //계산1
         int a = 1;
         int b = 2;
