@@ -14,4 +14,7 @@ public class MethodValue2 {
         number = number * 2;
         System.out.println("3. changeNumber 변경 후, number: " + number); //10
     }
+    // main과 changNumber는 완전히 다른 공간이므로 변수명이 같다고 해도 다른거임 ㅇㅇ
+    // 다른 메모리를 참조하는.
+
 }
