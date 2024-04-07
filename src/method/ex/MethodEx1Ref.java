@@ -7,7 +7,8 @@ public class MethodEx1Ref {
     }
 
     public static double average(int a, int b, int c) {
-        int sum = a + b + c;
-        return sum / 3.0;
+//        int sum = a + b + c;
+//        return sum / 3.0;
+        return (a+b+c)/3.0; // 이렇게 해도 되네 ㅇㅇ
     }
 }
