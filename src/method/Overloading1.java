@@ -6,7 +6,11 @@ public class Overloading1 {
         System.out.println("1: " + add(1,2));
         System.out.println("2: " + add(1,2,3));
     }
-
+    
+//    public static int add(int c, int d) { // 이거 안됨 ㅇㅇ. c,d만 다르다고 오버로딩되는건 아님
+//        System.out.println("1번 호출");
+//        return a + b;
+//    }
     public static int add(int a, int b) {
         System.out.println("1번 호출");
         return a + b;

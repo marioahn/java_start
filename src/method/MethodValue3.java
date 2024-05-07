@@ -2,6 +2,7 @@ package method;
 
 public class MethodValue3 {
 
+    // 이건 뭐.. 당연한 결과 ㅇㅇ.pass~
     public static void main(String[] args) {
         int num1 = 5;
         System.out.println("changeNumber 호출 전, num1: " + num1);
